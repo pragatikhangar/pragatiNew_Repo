@@ -1,9 +1,12 @@
 <template>
-   <lightning-card>
+   //Two way data binding
+   <lightning-card title="Two way data binding">
     <lightning-input type="text" label="Input Title" onkeyup={ChangeInput}></lightning-input>
     {first} from this course {second}
    </lightning-card>  
-   <lightning-card>
+
+   //@track property
+   <lightning-card title="@track property">
       <lightning-input type="text" label="City Name" onkeyup={ChangeCity}></lightning-input>
       My city is {address.city}
      </lightning-card> 
