@@ -1,6 +1,6 @@
 :host{
     --slds-c-card-color-background: linear-gradient(#a2000a,#cf0000);
-}
+} 
 .slds-card{
     background: linear-gradient(#a2000a,#cf0000);
     align-items: center;
